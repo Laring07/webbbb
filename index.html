@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio of Lara Alcuetas, a BS Computer Science student showcasing academic, programming, embedded systems, art, and other projects."
+    >
+
+    <title>Portfolio — Lara Alcuetas</title>
+
+    <link rel="icon" type="image/jpeg" href="lara.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Skip navigation -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <!-- Decorative background -->
+    <div class="background-decoration" aria-hidden="true">
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+        <div class="circle circle-three"></div>
+    </div>
+
+    <!-- Scroll progress indicator -->
+    <div
+        id="scrollProgress"
+        class="scroll-progress"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =========================
+         HEADER / NAVIGATION
+    ========================== -->
+    <header class="site-header">
+
+        <nav
+            class="navbar"
+            aria-label="Primary navigation"
+        >
+
+            <a
+                href="#home"
+                class="logo"
+                aria-label="Lara Alcuetas — Home"
+            >
+                <span aria-hidden="true">LA</span>
+            </a>
+
+            <div class="nav-links">
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    Home
+                </a>
+
+                <a
+                    href="#about"
+                    class="nav-link"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#projects"
+                    class="nav-link"
+                >
+                    Projects
+                </a>
+
+                <a
+                    href="#contact"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+    <main id="main-content">
+
+
+        <!-- =========================
+             HOME
+        ========================== -->
+        <section
+            id="home"
+            class="section home-section"
+            aria-labelledby="home-title"
+        >
+
+            <div class="home-content">
+
+                <p class="eyebrow">
+                    BS Computer Science
+                </p>
+
+                <h1 id="home-title">
+                    Hello, I'm Lara Alcuetas.
+                </h1>
+
+                <p class="home-description">
+                    Welcome to my portfolio. This website contains
+                    selected projects and activities from my journey
+                    as a Computer Science student.
+                </p>
+
+                <div class="home-buttons">
+
+                    <a
+                        href="#projects"
+                        class="button primary-button"
+                    >
+                        View My Projects
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="button secondary-button"
+                    >
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="home-image">
+
+                <img
+                    src="lara.jpg"
+                    alt="Portrait of Lara Alcuetas"
+                    width="500"
+                    height="500"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section
+            id="about"
+            class="section"
+            aria-labelledby="about-title"
+        >
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    Get to know me
+                </p>
+
+                <h2 id="about-title">
+                    About Me
+                </h2>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <p>
+                    I am a BS Computer Science student interested in
+                    technology, programming, creativity, and learning
+                    through hands-on projects.
+                </p>
+
+                <p>
+                    My portfolio contains different academic and
+                    personal activities that helped me develop my
+                    technical and creative skills.
+                </p>
+
+                <h3>
+                    Skills and Interests
+                </h3>
+
+                <ul>
+                    <li>Programming</li>
+                    <li>Web Development</li>
+                    <li>Embedded Systems</li>
+                    <li>Database Development</li>
+                    <li>Creative and Digital Art</li>
+                    <li>Project Development</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+        <section
+            id="projects"
+            class="section"
+            aria-labelledby="projects-title"
+        >
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    My work
+                </p>
+
+                <h2 id="projects-title">
+                    Projects
+                </h2>
+
+                <p>
+                    Select a project to view its related work,
+                    images, and videos.
+                </p>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <!-- ENTREPRENEURSHIP -->
+                <article class="project-card">
+
+                    <div class="project-card-content">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Entrepreneurship
+                        </h3>
+
+                        <p>
+                            Business and entrepreneurship-related
+                            activities, including business planning,
+                            presentation, and supporting documents.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="project-button"
+                            data-project="entrep"
+                        >
+                            View Entrepreneurship Project
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EMBEDDED -->
+                <article class="project-card">
+
+                    <div class="project-card-content">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Embedded Systems
+                        </h3>
+
+                        <p>
+                            Embedded systems activities featuring a
+                            2WD robot and different robot programming
+                            exercises.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="project-button"
+                            data-project="embedded"
+                        >
+                            View Embedded Systems Project
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ART APP -->
+                <article class="project-card">
+
+                    <div class="project-card-content">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Art App
+                        </h3>
+
+                        <p>
+                            A creative digital art project showcasing
+                            a portrait created through an art application.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="project-button"
+                            data-project="art"
+                        >
+                            View Art App Project
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CONTEMPORARY -->
+                <article class="project-card">
+
+                    <div class="project-card-content">
+
+                        <span class="project-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Contemporary
+                        </h3>
+
+                        <p>
+                            A creative project featuring a diorama,
+                            documentation photos, and recognition
+                            received for the work.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="project-button"
+                            data-project="contem"
+                        >
+                            View Contemporary Project
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- OTHER SUBJECTS -->
+                <article class="project-card">
+
+                    <div class="project-card-content">
+
+                        <span class="project-number">
+                            05
+                        </span>
+
+                        <h3>
+                            Other Subjects
+                        </h3>
+
+                        <p>
+                            Selected activities and outputs from other
+                            subjects, including Java and XAMPP-related
+                            work.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="project-button"
+                            data-project="other"
+                        >
+                            View Other Projects
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+        <section
+            id="contact"
+            class="section"
+            aria-labelledby="contact-title"
+        >
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    Get in touch
+                </p>
+
+                <h2 id="contact-title">
+                    Contact Me
+                </h2>
+
+                <p>
+                    You can contact me using the information below
+                    or send a message through the form.
+                </p>
+
+            </div>
+
+
+            <div class="contact-container">
+
+
+                <!-- Contact information -->
+                <div class="contact-info">
+
+                    <h3>
+                        Contact Information
+                    </h3>
+
+                    <p>
+                        <strong>Email:</strong>
+                        <a
+                            href="mailto:laraalcuetas@gmail.com"
+                        >
+                            laraalcuetas@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+639000000000">
+                            <span class="sr-only">
+                                Call Lara Alcuetas at
+                            </span>
+                            +63 900 000 0000
+                        </a>
+                    </p>
+
+                </div>
+
+
+                <!-- Contact form -->
+                <form
+                    class="contact-form"
+                    action="https://formsubmit.co/laraalcuetas@gmail.com"
+                    method="POST"
+                >
+
+                    <!-- FormSubmit settings -->
+                    <input
+                        type="hidden"
+                        name="_captcha"
+                        value="true"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="_template"
+                        value="table"
+                    >
+
+                    <input
+                        type="hidden"
+                        name="_next"
+                        value="https://webb-e99h.vercel.app/thanks.html"
+                    >
+
+
+                    <p
+                        id="form-help"
+                        class="form-help"
+                    >
+                        Please provide your name, email address,
+                        subject, and message.
+                    </p>
+
+
+                    <!-- Name -->
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            autocomplete="name"
+                            required
+                            aria-describedby="form-help"
+                        >
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            autocomplete="email"
+                            required
+                            aria-describedby="form-help"
+                        >
+
+                    </div>
+
+
+                    <!-- Subject -->
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            id="subject"
+                            name="subject"
+                            type="text"
+                            autocomplete="off"
+                            required
+                            aria-describedby="form-help"
+                        >
+
+                    </div>
+
+
+                    <!-- Message -->
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            required
+                            aria-describedby="form-help"
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button primary-button submit-button"
+                    >
+                        Send Message
+                    </button>
+
+
+                    <p
+                        id="formStatus"
+                        class="form-status"
+                        role="status"
+                        aria-live="polite"
+                        aria-atomic="true"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PROJECT DIALOG
+    ========================== -->
+    <dialog
+        id="projectModal"
+        class="project-modal"
+        aria-labelledby="projectTitle"
+    >
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h2 id="projectTitle">
+                    Project
+                </h2>
+
+                <button
+                    type="button"
+                    id="closeModal"
+                    class="close-button"
+                    aria-label="Close project viewer"
+                >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+
+
+            <div class="modal-layout">
+
+
+                <!-- Project menu -->
+                <aside
+                    class="project-sidebar"
+                    aria-label="Project items"
+                >
+
+                    <h3>
+                        Select an item
+                    </h3>
+
+                    <ul
+                        id="projectMenu"
+                        class="project-menu"
+                    >
+                    </ul>
+
+                </aside>
+
+
+                <!-- Project content -->
+                <div
+                    id="projectDisplay"
+                    class="project-display"
+                    tabindex="-1"
+                    aria-live="polite"
+                    aria-atomic="true"
+                >
+
+                    <p>
+                        Select an item to view.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </dialog>
+
+
+    <!-- =========================
+         NOSCRIPT
+    ========================== -->
+    <noscript>
+
+        <div class="noscript-message">
+            JavaScript is disabled. You can still view the main
+            portfolio sections, but the interactive project viewer
+            requires JavaScript.
+        </div>
+
+    </noscript>
+
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
